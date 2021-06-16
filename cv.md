@@ -1,22 +1,31 @@
 # Yevhen Moiseienko
 
 
-Tel: +380635873300 Email: mojseenko2011@gmail.com Skype: live:.cid.cf0133e2fcb56067
+### Contacts
 
 
-Summary
+Tel: +380635873300 
+
+
+Email: mojseenko2011@gmail.com 
+
+
+Skype: live:.cid.cf0133e2fcb56067
+
+
+### Summary
 
 
 Purposeful,responsible, communicable. My first purpose to become a senior in EPAM. For this, I'm studying a lot and I trust in myself.
 
 
-Skills
+### Skills
 
 
 HTML5/CSS3, basic level of Javascript, git, gulp, BEM.
 
 
-Code examples
+### Code examples
 
 
     bindTriggers() {
@@ -34,9 +43,9 @@ Code examples
     }
     
     
-Work experience
+### Work experience
 
-Udemy:
+#### Udemy:
 
 
 -https://www.udemy.com/course/html5-oz/#overview
@@ -52,10 +61,19 @@ Udemy:
 
 
 
-Education
+### Education
 
 
 Admiral Makarov National University of Shipbuilding
 
 
 Graduate (specialist)
+
+
+### English
+
+
+B1
+
+
+Worked at sea summary 4 years with mix crew
