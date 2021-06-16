@@ -6,14 +6,103 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>CV Moiseienko Yevhen</title>
 </head>
 <body>
     <div class="background">
         <div class="cv">
-            <header class="header"></header>
-            <main class="main"></main>
-            <footer class="footer"></footer>
+            <header class="header">
+                <h1>Moiseienko Yevhen</h1>
+                <div class="gh">
+                    <a target="_blank" href="https://github.com/YevhenMoiseienko"><img src="img/github-icon-1.svg" alt="miss"></a>
+                </div>
+            </header>
+            <main class="main">
+                <section class="top">
+                    <div class="contacts">
+                        <h3>Contacts</h3>
+                        <ul class="contacts__items">
+                            <li>Tel: +380635873300</li>
+                            <li>Email: mojseenko2011@gmail.com</li>
+                            <li>Skype: live:.cid.cf0133e2fcb56067</li>
+                            <li><a href="https://t.me/YevhenMoiseienko">Telegram</a></li>
+                        </ul>
+                    </div>
+                    <div class="image">
+                        <img src="img/0064.jpg" alt="miss">
+                    </div>
+                </section>
+                <!--Top-->
+                <section class="summary">
+                    <h3>Summary</h3>
+                    <p>Purposeful,responsible, communicable. My first purpose to become a senior in EPAM. <br>
+                        For this, I'm studying a lot and I trust in myself.</p>
+                </section>
+                <!--Summary-->
+                <section class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JS</li>
+                        <li>Git</li>
+                        <li>Gulp</li>
+                        <li>BEM</li>
+                    </ul>
+                </section>
+                <!--Skills-->
+                <section class="code-examples">
+                    <h3>Code examples</h3>
+                    <div class="examples">
+                        <code><pre>
+bindTriggers() {
+    this.btns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            if(document.querySelector('iframe#frame')) {
+                this.overlay.style.display = 'flex';
+            } else {
+                const path = btn.getAttribute('data-url');
+
+                this.createPlayer(path);
+            }
+        });
+    });
+}
+                    </pre></code>
+                    </div>
+                </section>
+                <!--Code examples-->
+                <section class="Work experience">
+                    <h3>Work experience</h3>
+                    <h4>Udemy</h4>
+                    <ul>
+                        <li><a href="https://www.udemy.com/course/html5-oz/#overview">https://www.udemy.com/course/html5-oz/#overview</a></li>
+                        <li><a href="https://www.udemy.com/course/html-css-from-zero/#content">https://www.udemy.com/course/html-css-from-zero/#content</a></li>
+                        <li><a href="https://www.udemy.com/course/javascript_full/learn/lecture/14328446#overview">https://www.udemy.com/course/javascript_full/learn/lecture/14328446#overview</a></li>
+                        <li><a href="https://www.udemy.com/course/javascript_practice/">https://www.udemy.com/course/javascript_practice/</a></li>
+                    </ul>
+                </section>
+                <!--Work experience-->
+                <section class=Education">
+                    <h3>Education</h3>
+                    <p>Admiral Makarov National University of Shipbuilding <br>
+                        Graduate (specialist)</p>
+                </section>
+                <!--Education-->
+                <section class="English">
+                    <h3>English</h3>
+                    <p>B1 <br>
+                        Worked at sea summary 4 years with mix crew</p>
+                </section>
+                <!--English-->
+            </main>
+            <footer class="footer">
+                <div class="logo">
+                    <a target="_blank" href="https://rs.school/"><img src="img/logo-rs.svg" alt="miss"></a>
+                </div>
+            </footer>
         </div>
     </div>
 </body>
